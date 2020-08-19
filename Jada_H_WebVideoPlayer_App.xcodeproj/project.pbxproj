@@ -1,0 +1,606 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		979BD24724EDA51000BECED0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 979BD24624EDA51000BECED0 /* AppDelegate.swift */; };
+		979BD24924EDA51000BECED0 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 979BD24824EDA51000BECED0 /* SceneDelegate.swift */; };
+		979BD24B24EDA51000BECED0 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 979BD24A24EDA51000BECED0 /* ViewController.swift */; };
+		979BD24E24EDA51000BECED0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 979BD24C24EDA51000BECED0 /* Main.storyboard */; };
+		979BD25124EDA51000BECED0 /* Jada_H_WebVideoPlayer_App.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 979BD24F24EDA51000BECED0 /* Jada_H_WebVideoPlayer_App.xcdatamodeld */; };
+		979BD25324EDA51400BECED0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 979BD25224EDA51400BECED0 /* Assets.xcassets */; };
+		979BD25624EDA51400BECED0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 979BD25424EDA51400BECED0 /* LaunchScreen.storyboard */; };
+		979BD26124EDA51400BECED0 /* Jada_H_WebVideoPlayer_AppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 979BD26024EDA51400BECED0 /* Jada_H_WebVideoPlayer_AppTests.swift */; };
+		979BD26C24EDA51400BECED0 /* Jada_H_WebVideoPlayer_AppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 979BD26B24EDA51400BECED0 /* Jada_H_WebVideoPlayer_AppUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		979BD25D24EDA51400BECED0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 979BD23B24EDA51000BECED0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 979BD24224EDA51000BECED0;
+			remoteInfo = Jada_H_WebVideoPlayer_App;
+		};
+		979BD26824EDA51400BECED0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 979BD23B24EDA51000BECED0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 979BD24224EDA51000BECED0;
+			remoteInfo = Jada_H_WebVideoPlayer_App;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		979BD24324EDA51000BECED0 /* Jada_H_WebVideoPlayer_App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Jada_H_WebVideoPlayer_App.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		979BD24624EDA51000BECED0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		979BD24824EDA51000BECED0 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		979BD24A24EDA51000BECED0 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		979BD24D24EDA51000BECED0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		979BD25024EDA51000BECED0 /* Jada_H_WebVideoPlayer_App.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Jada_H_WebVideoPlayer_App.xcdatamodel; sourceTree = "<group>"; };
+		979BD25224EDA51400BECED0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		979BD25524EDA51400BECED0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		979BD25724EDA51400BECED0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		979BD25C24EDA51400BECED0 /* Jada_H_WebVideoPlayer_AppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Jada_H_WebVideoPlayer_AppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		979BD26024EDA51400BECED0 /* Jada_H_WebVideoPlayer_AppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Jada_H_WebVideoPlayer_AppTests.swift; sourceTree = "<group>"; };
+		979BD26224EDA51400BECED0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		979BD26724EDA51400BECED0 /* Jada_H_WebVideoPlayer_AppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Jada_H_WebVideoPlayer_AppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		979BD26B24EDA51400BECED0 /* Jada_H_WebVideoPlayer_AppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Jada_H_WebVideoPlayer_AppUITests.swift; sourceTree = "<group>"; };
+		979BD26D24EDA51400BECED0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		979BD24024EDA51000BECED0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		979BD25924EDA51400BECED0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		979BD26424EDA51400BECED0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		979BD23A24EDA51000BECED0 = {
+			isa = PBXGroup;
+			children = (
+				979BD24524EDA51000BECED0 /* Jada_H_WebVideoPlayer_App */,
+				979BD25F24EDA51400BECED0 /* Jada_H_WebVideoPlayer_AppTests */,
+				979BD26A24EDA51400BECED0 /* Jada_H_WebVideoPlayer_AppUITests */,
+				979BD24424EDA51000BECED0 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		979BD24424EDA51000BECED0 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				979BD24324EDA51000BECED0 /* Jada_H_WebVideoPlayer_App.app */,
+				979BD25C24EDA51400BECED0 /* Jada_H_WebVideoPlayer_AppTests.xctest */,
+				979BD26724EDA51400BECED0 /* Jada_H_WebVideoPlayer_AppUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		979BD24524EDA51000BECED0 /* Jada_H_WebVideoPlayer_App */ = {
+			isa = PBXGroup;
+			children = (
+				979BD24624EDA51000BECED0 /* AppDelegate.swift */,
+				979BD24824EDA51000BECED0 /* SceneDelegate.swift */,
+				979BD24A24EDA51000BECED0 /* ViewController.swift */,
+				979BD24C24EDA51000BECED0 /* Main.storyboard */,
+				979BD25224EDA51400BECED0 /* Assets.xcassets */,
+				979BD25424EDA51400BECED0 /* LaunchScreen.storyboard */,
+				979BD25724EDA51400BECED0 /* Info.plist */,
+				979BD24F24EDA51000BECED0 /* Jada_H_WebVideoPlayer_App.xcdatamodeld */,
+			);
+			path = Jada_H_WebVideoPlayer_App;
+			sourceTree = "<group>";
+		};
+		979BD25F24EDA51400BECED0 /* Jada_H_WebVideoPlayer_AppTests */ = {
+			isa = PBXGroup;
+			children = (
+				979BD26024EDA51400BECED0 /* Jada_H_WebVideoPlayer_AppTests.swift */,
+				979BD26224EDA51400BECED0 /* Info.plist */,
+			);
+			path = Jada_H_WebVideoPlayer_AppTests;
+			sourceTree = "<group>";
+		};
+		979BD26A24EDA51400BECED0 /* Jada_H_WebVideoPlayer_AppUITests */ = {
+			isa = PBXGroup;
+			children = (
+				979BD26B24EDA51400BECED0 /* Jada_H_WebVideoPlayer_AppUITests.swift */,
+				979BD26D24EDA51400BECED0 /* Info.plist */,
+			);
+			path = Jada_H_WebVideoPlayer_AppUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		979BD24224EDA51000BECED0 /* Jada_H_WebVideoPlayer_App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 979BD27024EDA51400BECED0 /* Build configuration list for PBXNativeTarget "Jada_H_WebVideoPlayer_App" */;
+			buildPhases = (
+				979BD23F24EDA51000BECED0 /* Sources */,
+				979BD24024EDA51000BECED0 /* Frameworks */,
+				979BD24124EDA51000BECED0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Jada_H_WebVideoPlayer_App;
+			productName = Jada_H_WebVideoPlayer_App;
+			productReference = 979BD24324EDA51000BECED0 /* Jada_H_WebVideoPlayer_App.app */;
+			productType = "com.apple.product-type.application";
+		};
+		979BD25B24EDA51400BECED0 /* Jada_H_WebVideoPlayer_AppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 979BD27324EDA51400BECED0 /* Build configuration list for PBXNativeTarget "Jada_H_WebVideoPlayer_AppTests" */;
+			buildPhases = (
+				979BD25824EDA51400BECED0 /* Sources */,
+				979BD25924EDA51400BECED0 /* Frameworks */,
+				979BD25A24EDA51400BECED0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				979BD25E24EDA51400BECED0 /* PBXTargetDependency */,
+			);
+			name = Jada_H_WebVideoPlayer_AppTests;
+			productName = Jada_H_WebVideoPlayer_AppTests;
+			productReference = 979BD25C24EDA51400BECED0 /* Jada_H_WebVideoPlayer_AppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		979BD26624EDA51400BECED0 /* Jada_H_WebVideoPlayer_AppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 979BD27624EDA51400BECED0 /* Build configuration list for PBXNativeTarget "Jada_H_WebVideoPlayer_AppUITests" */;
+			buildPhases = (
+				979BD26324EDA51400BECED0 /* Sources */,
+				979BD26424EDA51400BECED0 /* Frameworks */,
+				979BD26524EDA51400BECED0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				979BD26924EDA51400BECED0 /* PBXTargetDependency */,
+			);
+			name = Jada_H_WebVideoPlayer_AppUITests;
+			productName = Jada_H_WebVideoPlayer_AppUITests;
+			productReference = 979BD26724EDA51400BECED0 /* Jada_H_WebVideoPlayer_AppUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		979BD23B24EDA51000BECED0 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1130;
+				LastUpgradeCheck = 1130;
+				ORGANIZATIONNAME = "Jada Harmon";
+				TargetAttributes = {
+					979BD24224EDA51000BECED0 = {
+						CreatedOnToolsVersion = 11.3.1;
+					};
+					979BD25B24EDA51400BECED0 = {
+						CreatedOnToolsVersion = 11.3.1;
+						TestTargetID = 979BD24224EDA51000BECED0;
+					};
+					979BD26624EDA51400BECED0 = {
+						CreatedOnToolsVersion = 11.3.1;
+						TestTargetID = 979BD24224EDA51000BECED0;
+					};
+				};
+			};
+			buildConfigurationList = 979BD23E24EDA51000BECED0 /* Build configuration list for PBXProject "Jada_H_WebVideoPlayer_App" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 979BD23A24EDA51000BECED0;
+			productRefGroup = 979BD24424EDA51000BECED0 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				979BD24224EDA51000BECED0 /* Jada_H_WebVideoPlayer_App */,
+				979BD25B24EDA51400BECED0 /* Jada_H_WebVideoPlayer_AppTests */,
+				979BD26624EDA51400BECED0 /* Jada_H_WebVideoPlayer_AppUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		979BD24124EDA51000BECED0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				979BD25624EDA51400BECED0 /* LaunchScreen.storyboard in Resources */,
+				979BD25324EDA51400BECED0 /* Assets.xcassets in Resources */,
+				979BD24E24EDA51000BECED0 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		979BD25A24EDA51400BECED0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		979BD26524EDA51400BECED0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		979BD23F24EDA51000BECED0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				979BD24B24EDA51000BECED0 /* ViewController.swift in Sources */,
+				979BD24724EDA51000BECED0 /* AppDelegate.swift in Sources */,
+				979BD25124EDA51000BECED0 /* Jada_H_WebVideoPlayer_App.xcdatamodeld in Sources */,
+				979BD24924EDA51000BECED0 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		979BD25824EDA51400BECED0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				979BD26124EDA51400BECED0 /* Jada_H_WebVideoPlayer_AppTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		979BD26324EDA51400BECED0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				979BD26C24EDA51400BECED0 /* Jada_H_WebVideoPlayer_AppUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		979BD25E24EDA51400BECED0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 979BD24224EDA51000BECED0 /* Jada_H_WebVideoPlayer_App */;
+			targetProxy = 979BD25D24EDA51400BECED0 /* PBXContainerItemProxy */;
+		};
+		979BD26924EDA51400BECED0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 979BD24224EDA51000BECED0 /* Jada_H_WebVideoPlayer_App */;
+			targetProxy = 979BD26824EDA51400BECED0 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		979BD24C24EDA51000BECED0 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				979BD24D24EDA51000BECED0 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		979BD25424EDA51400BECED0 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				979BD25524EDA51400BECED0 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		979BD26E24EDA51400BECED0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		979BD26F24EDA51400BECED0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		979BD27124EDA51400BECED0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = Jada_H_WebVideoPlayer_App/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.jadaharmon.Jada-H-WebVideoPlayer-App";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		979BD27224EDA51400BECED0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = Jada_H_WebVideoPlayer_App/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.jadaharmon.Jada-H-WebVideoPlayer-App";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		979BD27424EDA51400BECED0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = Jada_H_WebVideoPlayer_AppTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.jadaharmon.Jada-H-WebVideoPlayer-AppTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Jada_H_WebVideoPlayer_App.app/Jada_H_WebVideoPlayer_App";
+			};
+			name = Debug;
+		};
+		979BD27524EDA51400BECED0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = Jada_H_WebVideoPlayer_AppTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.jadaharmon.Jada-H-WebVideoPlayer-AppTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Jada_H_WebVideoPlayer_App.app/Jada_H_WebVideoPlayer_App";
+			};
+			name = Release;
+		};
+		979BD27724EDA51400BECED0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = Jada_H_WebVideoPlayer_AppUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.jadaharmon.Jada-H-WebVideoPlayer-AppUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Jada_H_WebVideoPlayer_App;
+			};
+			name = Debug;
+		};
+		979BD27824EDA51400BECED0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = Jada_H_WebVideoPlayer_AppUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.jadaharmon.Jada-H-WebVideoPlayer-AppUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Jada_H_WebVideoPlayer_App;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		979BD23E24EDA51000BECED0 /* Build configuration list for PBXProject "Jada_H_WebVideoPlayer_App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				979BD26E24EDA51400BECED0 /* Debug */,
+				979BD26F24EDA51400BECED0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		979BD27024EDA51400BECED0 /* Build configuration list for PBXNativeTarget "Jada_H_WebVideoPlayer_App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				979BD27124EDA51400BECED0 /* Debug */,
+				979BD27224EDA51400BECED0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		979BD27324EDA51400BECED0 /* Build configuration list for PBXNativeTarget "Jada_H_WebVideoPlayer_AppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				979BD27424EDA51400BECED0 /* Debug */,
+				979BD27524EDA51400BECED0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		979BD27624EDA51400BECED0 /* Build configuration list for PBXNativeTarget "Jada_H_WebVideoPlayer_AppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				979BD27724EDA51400BECED0 /* Debug */,
+				979BD27824EDA51400BECED0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		979BD24F24EDA51000BECED0 /* Jada_H_WebVideoPlayer_App.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				979BD25024EDA51000BECED0 /* Jada_H_WebVideoPlayer_App.xcdatamodel */,
+			);
+			currentVersion = 979BD25024EDA51000BECED0 /* Jada_H_WebVideoPlayer_App.xcdatamodel */;
+			path = Jada_H_WebVideoPlayer_App.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 979BD23B24EDA51000BECED0 /* Project object */;
+}
